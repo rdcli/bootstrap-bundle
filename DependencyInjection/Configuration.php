@@ -39,7 +39,7 @@ class Configuration implements ConfigurationInterface
             ->children()
             ->scalarNode('output_dir')->defaultValue('')->end()
             ->scalarNode('assets_dir')->defaultValue('%kernel.root_dir%/../vendor/twbs/bootstrap')->end()
-            ->scalarNode('jquery_path')->defaultValue('%kernel.root_dir%/../vendor/jquery/jquery/jquery-1.9.1.js')->end()
+            ->scalarNode('jquery_path')->defaultValue('%kernel.root_dir%/../vendor/jquery/jquery/jquery-1.10.2.js')->end()
             ->scalarNode('less_filter')
                 ->defaultValue('less')
                 ->validate()
