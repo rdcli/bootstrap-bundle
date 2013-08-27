@@ -13,7 +13,8 @@
         }
     ],
     "require":      {
-        "php":              ">=5.3.3"
+        "php":              ">=5.3.3",
+        "twbs/bootstrap":   "3.0.*"
     },
     "require-dev": {
         "knplabs/knp-menu":                     "dev-master",
@@ -29,7 +30,7 @@
         "knplabs/knp-paginator-bundle": "BraincraftedBootstrapBundle styles the pagination provided by KnpPaginatorBundle.",
         "knplabs/knp-menu":             "Required to use KnpMenuBundle.",
         "knplabs/knp-menu-bundle":      "BraincraftedBootstrapBundle styles the menus provided by KnpMenuBundle.",
-        "twbs/bootstrap":            "Twitter Bootstrap provides the assets (images, CSS and JS)"
+        "fortawesome/font-awesome":     "Font icons."
     },
     "autoload": {
         "psr-0": { "Bc\\Bundle\\BootstrapBundle": "" }
